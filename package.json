@@ -1,0 +1,19 @@
+{
+  "name": "note_app",
+  "version": "1.0.0",
+  "description": "An api for sending and recieving notes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./test/test.js"
+  },
+  "author": "Tom Blanchet",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "node-libcurl": "^1.0.0"
+  }
+}
