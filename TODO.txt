@@ -3,3 +3,12 @@ BETTER DATABASE INTEGRATION
 -Need to refactor Note methods to use callbacks
 -Need to rewrite dbNoteLink to then act as middleware for Notes and NoteHandler
     rather than as strictly a local state backup.
+TEST SCALING
+-Need tests to reference a datafile so more notes/queries can be added and tested
+    -Datafile would be csv, where the top tow will be notes, and the other rows are test 
+        queries with columns associated with if the note will be queried (with each option)
+        
+-Need a way to generate tests.
+    -Since this requires very similar code to the code already on server now, this
+        would simply be for integrating new code, where existing, working code can be used 
+        to generate new tests.
