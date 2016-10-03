@@ -2,3 +2,4 @@ BETTER DATABASE INTEGRATION
 -Need to refactor index.js to use callbacks with notes
 -Need to refactor Note methods to use callbacks
 -Need to rewrite dbNoteLink to then act as middleware for Notes and NoteHandler
+    rather than as strictly a local state backup.
