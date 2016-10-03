@@ -1,5 +1,5 @@
 {
     "USE_DB" : false,
-    "MONGO_URI": "mongodb://localhost/db",
+    "MONGO_URI": "mongodb://localhost:12121/db",
     "MONGO_OPTIONS" : { "db" : { "safe" : true } }
 }
