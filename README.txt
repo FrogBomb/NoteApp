@@ -10,6 +10,7 @@ To start server:
     If you are running tests, the tests currently assume the database
     is empty before starting. Please restart the server and use an empty
     database before running tests.
+    Currently, there is are no tests for database integrety. 
     
     Please check the config.json file to assure that if you are using an
     external database, the current database location is 

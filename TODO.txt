@@ -3,6 +3,9 @@ BETTER DATABASE INTEGRATION
 -Need to refactor Note methods to use callbacks
 -Need to rewrite dbNoteLink to then act as middleware for Notes and NoteHandler
     rather than as strictly a local state backup.
+-Write tests to check that data is recovered after server failure.
+    **This means writing code to securely fail the server!**
+    
 TEST SCALING
 -Need tests to reference a datafile so more notes/queries can be added and tested
     -Datafile would be csv, where the top tow will be notes, and the other rows are test 
