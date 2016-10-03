@@ -1,7 +1,7 @@
 To start server:
     Make sure node.js is installed. Then, run:
         >>> npm i
-    This will install the npm packages needed to run the server.
+    This will install the npm packages needed to run and test the server.
     Then, to start the server, run:
         >>> npm start
         
